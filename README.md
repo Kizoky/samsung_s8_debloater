@@ -20,3 +20,19 @@ into a .txt file you can check later. Using that .txt file you can then edit the
 
 If you have found bloatware that aren't on this list, you can do a pull request, or 
 create a new issue.
+
+# List of features/apps removed/disabled/hidden currently
+Note: there are some apps I don't know what their purpose is, so I haven't included
+them on this list (ex.: HiyaService, RootPA, etc..)
+
+- Bixby
+- G-mail
+- Calendar & Contacts syncer
+- Edge related apps and features
+- Talkback
+- Drive
+- Maps
+- Several Google services
+- Facebook installer/services
+- Excel and Powerpoint
+- Several Samsung services
