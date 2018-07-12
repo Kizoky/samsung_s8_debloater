@@ -36,3 +36,5 @@ them on this list (ex.: HiyaService, RootPA, etc..)
 - Facebook installer/services
 - Excel and Powerpoint
 - Several Samsung services
+
+If unsure check out the list: https://github.com/Kizoky/samsung_s8_debloater/blob/master/files/debloat_list.sh
