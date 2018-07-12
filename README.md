@@ -35,6 +35,14 @@ them on this list (ex.: HiyaService, RootPA, etc..)
 - Several Google services
 - Facebook installer/services
 - Excel and Powerpoint
-- Several Samsung services
+- Samsung services and apps
+- Game related apps
+- Samsung widgets
+- UPDATES ARE DISABLED
 
 If unsure check out the list: https://github.com/Kizoky/samsung_s8_debloater/blob/master/files/debloat_list.sh
+Performing a factory reset should re-enable these apps, and you can update the phone If needed
+
+# Todo
+
+- Needs a cleanup for a faster debloating

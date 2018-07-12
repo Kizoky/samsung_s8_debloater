@@ -27,7 +27,92 @@ echo ""
 	${UNINSTALL} com.android.keychain # system/app/KeyChain/KeyChain.apk
 	${UNINSTALL} com.google.android.apps.maps # system/app/Maps/Maps.apk
 	${UNINSTALL} com.android.providers.partnerbookmarks # system/app/PartnerBookmarksProvider/PartnerBookmarksProvider.apk
-	
+# Credits: Neo3D https://forum.xda-developers.com/galaxy-s8/how-to/s8-debloat-bloatware-thread-t3669009
+	${UNINSTALL} com.dsi.ant.sample.acquirechannels
+	${UNINSTALL} com.dsi.ant.service.socket
+	${UNINSTALL} com.dsi.ant.server
+	${UNINSTALL} com.dsi.ant.plugins.antplus
+	${UNINSTALL} flipboard.boxer.app
+	${UNINSTALL} com.cnn.mobile.android.phone.edgepanel
+	${UNINSTALL} com.sec.android.easyonehand
+	${UNINSTALL} com.samsung.android.widgetapp.yahooedge.finance
+	${UNINSTALL} com.android.dreams.phototable
+	${UNINSTALL} com.google.android.printservice.recommendation
+	${UNINSTALL} com.android.printspooler
+	${UNINSTALL} com.samsung.android.widgetapp.yahooedge.sport
+	${UNINSTALL} com.samsung.android.spdfnote
+	${UNINSTALL} com.sec.android.daemonapp
+	${UNINSTALL} com.samsung.android.weather
+	${UNINSTALL} com.samsung.android.app.reminder
+	${UNINSTALL} com.hancom.office.editor.hidden
+	${UNINSTALL} com.samsung.android.keyguardwallpaperupdator
+	${UNINSTALL} com.samsung.android.app.news
+	${UNINSTALL} com.android.egg
+	${UNINSTALL} com.sec.android.widgetapp.samsungapps
+	${UNINSTALL} com.samsung.android.game.gamehome
+	${UNINSTALL} com.enhance.gameservice
+	${UNINSTALL} com.samsung.android.game.gametools
+	${UNINSTALL} com.sec.android.app.sbrowser
+	${UNINSTALL} com.samsung.android.app.sbrowseredge
+	${UNINSTALL} com.samsung.android.email.provider
+	${UNINSTALL} com.wsomacp
+	${UNINSTALL} com.facebook.katana
+	${UNINSTALL} com.facebook.system
+	${UNINSTALL} com.facebook.appmanager
+	${UNINSTALL} com.facebook.services
+	${UNINSTALL} com.samsung.android.hmt.vrsvc
+	${UNINSTALL} com.samsung.android.app.vrsetupwizardstub
+	${UNINSTALL} com.samsung.android.hmt.vrshell
+	${UNINSTALL} com.google.vr.vrcore
+	${UNINSTALL} com.samsung.android.app.ledcoverdream
+	${UNINSTALL} com.sec.android.cover.ledcover
+	${UNINSTALL} com.sec.android.app.desktoplauncher
+	${UNINSTALL} com.sec.android.app.withtv
+# Credits: https://forum.xda-developers.com/galaxy-note-8/how-to/list-software-packages-apps-disabled-t3676131/page3
+	${UNINSTALL} com.cnn.mobile.android.phone.edgepanel
+	${UNINSTALL} com.verizon.mips.services
+	${UNINSTALL} com.turner.cnvideoapp
+	${UNINSTALL} com.vzw.hss.myverizon
+	${UNINSTALL} com.sec.android.app.voicenote
+	${UNINSTALL} com.vcast.mediamanager
+	${UNINSTALL} com.samsung.android.widgetapp.yahooedge.finance
+	${UNINSTALL} com.sec.android.daemonapp
+	${UNINSTALL} com.samsung.android.widgetapp.yahooedge.sport
+	${UNINSTALL} com.samsung.android.bixby.agent
+	${UNINSTALL} com.sec.android.gallery3d
+	${UNINSTALL} com.samsung.android.hmt.vrsvc
+	${UNINSTALL} com.samsung.android.bixby.es.globalaction
+	${UNINSTALL} com.samsung.android.game.gametools
+	${UNINSTALL} com.samsung.android.service.peoplestripe
+	${UNINSTALL} com.sec.android.desktopmode.uiservice
+	${UNINSTALL} com.samsung.android.app.taskedge
+	${UNINSTALL} com.samsung.ecomm
+	${UNINSTALL} com.google.android.street
+	${UNINSTALL} com.sec.android.app.myfiles
+	${UNINSTALL} com.customermobile.preload.vzw
+	${UNINSTALL} flipboard.boxer.app
+	${UNINSTALL} com.sec.android.app.sbrowser
+	${UNINSTALL} com.telecomsys.directedsms.android.SCG
+	${UNINSTALL} com.sec.android.app.quicktool
+	${UNINSTALL} com.samsung.android.bixby.wakeup
+	${UNINSTALL} com.samsung.android.bixby.plmsync
+	${UNINSTALL} com.samsung.android.spayfw
+	${UNINSTALL} com.samsung.android.spay
+	${UNINSTALL} com.samsung.android.app.notes
+	${UNINSTALL} com.samsung.android.app.spage
+	${UNINSTALL} com.LogiaGroup.LogiaDeck
+	${UNINSTALL} com.sec.android.easyMover
+	${UNINSTALL} com.samsung.android.visionintelligence
+	${UNINSTALL} net.sharewire.parkmobilev2
+	${UNINSTALL} com.samsung.android.app.watchmanagerstub
+	${UNINSTALL} com.enhance.gameservice
+	${UNINSTALL} com.asurion.android.verizon.vms
+	${UNINSTALL} com.samsung.android.bixby.voiceinput
+	${UNINSTALL} com.samsung.android.app.appsedge
+	${UNINSTALL} com.samsung.systemui.bixby
+	${UNINSTALL} com.samsung.android.app.clipboardedge
+	${UNINSTALL} com.verizon.messaging.vzmsgs
+	${UNINSTALL} com.samsung.android.bixby.agent.dummy
 	
 	
 
@@ -56,6 +141,88 @@ echo ""
 	${UNINSTALL} org.simalliance.openmobileapi.service # system/priv-app/SmartcardService/SmartcardService.apk
 	${UNINSTALL} com.android.stk # system/priv-app/Stk/Stk.apk
 	${UNINSTALL} com.android.apps.tag # system/priv-app/Tag/Tag.apk
+# Credits: Neo3D https://forum.xda-developers.com/galaxy-s8/how-to/s8-debloat-bloatware-thread-t3669009
+# Note: This is copy and pasted into priv-app too because I'm unsure If they are in app or priv-app
+	${UNINSTALL} flipboard.boxer.app
+	${UNINSTALL} com.cnn.mobile.android.phone.edgepanel
+	${UNINSTALL} com.sec.android.easyonehand
+	${UNINSTALL} com.samsung.android.widgetapp.yahooedge.finance
+	${UNINSTALL} com.android.dreams.phototable
+	${UNINSTALL} com.google.android.printservice.recommendation
+	${UNINSTALL} com.samsung.android.widgetapp.yahooedge.sport
+	${UNINSTALL} com.samsung.android.spdfnote
+	${UNINSTALL} com.sec.android.daemonapp
+	${UNINSTALL} com.samsung.android.weather
+	${UNINSTALL} com.samsung.android.app.reminder
+	${UNINSTALL} com.hancom.office.editor.hidden
+	${UNINSTALL} com.samsung.android.keyguardwallpaperupdator
+	${UNINSTALL} com.samsung.android.app.news
+	${UNINSTALL} com.android.egg
+	${UNINSTALL} com.sec.android.widgetapp.samsungapps
+	${UNINSTALL} com.samsung.android.game.gamehome
+	${UNINSTALL} com.enhance.gameservice
+	${UNINSTALL} com.samsung.android.game.gametools
+	${UNINSTALL} com.sec.android.app.sbrowser
+	${UNINSTALL} com.samsung.android.app.sbrowseredge
+	${UNINSTALL} com.samsung.android.email.provider
+	${UNINSTALL} com.wsomacp
+	${UNINSTALL} com.facebook.katana
+	${UNINSTALL} com.facebook.system
+	${UNINSTALL} com.facebook.appmanager
+	${UNINSTALL} com.facebook.services
+	${UNINSTALL} com.samsung.android.hmt.vrsvc
+	${UNINSTALL} com.samsung.android.app.vrsetupwizardstub
+	${UNINSTALL} com.samsung.android.hmt.vrshell
+	${UNINSTALL} com.google.vr.vrcore
+	${UNINSTALL} com.samsung.android.app.ledcoverdream
+	${UNINSTALL} com.sec.android.cover.ledcover
+	${UNINSTALL} com.sec.android.app.desktoplauncher
+	${UNINSTALL} com.sec.android.app.withtv
+# Credits: https://forum.xda-developers.com/galaxy-note-8/how-to/list-software-packages-apps-disabled-t3676131/page3
+	${UNINSTALL} com.cnn.mobile.android.phone.edgepanel
+	${UNINSTALL} com.verizon.mips.services
+	${UNINSTALL} com.turner.cnvideoapp
+	${UNINSTALL} com.vzw.hss.myverizon
+	${UNINSTALL} com.sec.android.app.voicenote
+	${UNINSTALL} com.vcast.mediamanager
+	${UNINSTALL} com.samsung.android.widgetapp.yahooedge.finance
+	${UNINSTALL} com.sec.android.daemonapp
+	${UNINSTALL} com.samsung.android.widgetapp.yahooedge.sport
+	${UNINSTALL} com.samsung.android.bixby.agent
+	${UNINSTALL} com.sec.android.gallery3d
+	${UNINSTALL} com.samsung.android.hmt.vrsvc
+	${UNINSTALL} com.samsung.android.bixby.es.globalaction
+	${UNINSTALL} com.samsung.android.game.gametools
+	${UNINSTALL} com.samsung.android.service.peoplestripe
+	${UNINSTALL} com.sec.android.desktopmode.uiservice
+	${UNINSTALL} com.samsung.android.app.taskedge
+	${UNINSTALL} com.samsung.ecomm
+	${UNINSTALL} com.google.android.street
+	${UNINSTALL} com.sec.android.app.myfiles
+	${UNINSTALL} com.customermobile.preload.vzw
+	${UNINSTALL} flipboard.boxer.app
+	${UNINSTALL} com.sec.android.app.sbrowser
+	${UNINSTALL} com.telecomsys.directedsms.android.SCG
+	${UNINSTALL} com.sec.android.app.quicktool
+	${UNINSTALL} com.samsung.android.bixby.wakeup
+	${UNINSTALL} com.samsung.android.bixby.plmsync
+	${UNINSTALL} com.samsung.android.spayfw
+	${UNINSTALL} com.samsung.android.spay
+	${UNINSTALL} com.samsung.android.app.notes
+	${UNINSTALL} com.samsung.android.app.spage
+	${UNINSTALL} com.LogiaGroup.LogiaDeck
+	${UNINSTALL} com.sec.android.easyMover
+	${UNINSTALL} com.samsung.android.visionintelligence
+	${UNINSTALL} net.sharewire.parkmobilev2
+	${UNINSTALL} com.samsung.android.app.watchmanagerstub
+	${UNINSTALL} com.enhance.gameservice
+	${UNINSTALL} com.asurion.android.verizon.vms
+	${UNINSTALL} com.samsung.android.bixby.voiceinput
+	${UNINSTALL} com.samsung.android.app.appsedge
+	${UNINSTALL} com.samsung.systemui.bixby
+	${UNINSTALL} com.samsung.android.app.clipboardedge
+	${UNINSTALL} com.verizon.messaging.vzmsgs
+	${UNINSTALL} com.samsung.android.bixby.agent.dummy
 	
 	
 	
