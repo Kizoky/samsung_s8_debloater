@@ -16,6 +16,19 @@ echo ""
 	${UNINSTALL} com.samsung.android.app.clipboardedge # system/app/ClipboardEdge/ClipboardEdge.apk
 	${UNINSTALL} com.samsung.android.app.talkback # system/app/STalkback/STalkback.apk
 	${UNINSTALL} com.samsung.android.app.withtv # system/app/withTV/withTV.apk
+# Bloatware according to serajr (Sony apps not included)
+	${UNINSTALL} com.amazon.mShop.android.shopping # system/app/com.amazon.mShop.android.shopping/com.amazon.mShop.android.shopping.apk
+	${UNINSTALL} com.amazon.kindle # system/app/com.amazon.kindle/com.amazon.kindle.apk
+	${UNINSTALL} com.s.antivirus # system/app/com.s.antivirus/com.s.antivirus.apk
+	${UNINSTALL} com.google.android.apps.docs # system/app/Drive/Drive.apk
+	${UNINSTALL} com.google.android.apps.tachyon # system/app/Duo/Duo.apk
+	${UNINSTALL} com.google.android.printservice.recommendation # system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk
+	${UNINSTALL} com.android.htmlviewer # system/app/HTMLViewer/HTMLViewer.apk
+	${UNINSTALL} com.android.keychain # system/app/KeyChain/KeyChain.apk
+	${UNINSTALL} com.google.android.apps.maps # system/app/Maps/Maps.apk
+	${UNINSTALL} com.android.providers.partnerbookmarks # system/app/PartnerBookmarksProvider/PartnerBookmarksProvider.apk
+	
+	
 	
 
 # /system/priv-app/
@@ -36,18 +49,27 @@ echo ""
 	${UNINSTALL} com.samsung.android.dqagent # system/priv-app/DeviceQualityAgent/DeviceQualityAgent.apk
 	${UNINSTALL} com.samsung.android.service.peoplestripe # system/priv-app/PeopleStripe/PeopleStripe.apk
 	${UNINSTALL} com.samsung.enhanceservice # system/priv-app/EnhanceService/EnhanceService.apk
+# Bloatware according to serajr (Sony apps not included)
+	${UNINSTALL} com.google.android.backuptransport # system/priv-app/GoogleBackupTransport/GoogleBackupTransport.apk
+	${UNINSTALL} com.android.inputdevices # system/priv-app/InputDevices/InputDevices.apk
+	${UNINSTALL} com.android.sharedstoragebackup # system/priv-app/SharedStorageBackup/SharedStorageBackup.apk
+	${UNINSTALL} org.simalliance.openmobileapi.service # system/priv-app/SmartcardService/SmartcardService.apk
+	${UNINSTALL} com.android.stk # system/priv-app/Stk/Stk.apk
+	${UNINSTALL} com.android.apps.tag # system/priv-app/Tag/Tag.apk
+	
+	
 	
 
 # /oem/priv-app/
-echo ""
-echo "/oem/priv-app/"
-echo ""	
+# echo ""
+# echo "/oem/priv-app/"
+# echo ""	
 	# ${UNINSTALL} com.android.cellbroadcastreceiver # oem/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk
 	# ${UNINSTALL} com.sonymobile.cellbroadcast.notification # oem/priv-app/CellInformationNotification/CellInformationNotification.apk
 	
 
 # /data/app/
-echo ""
-echo "/data/app/"
-echo ""	
+# echo ""
+# echo "/data/app/"
+# echo ""	
 	# ${UNINSTALL} com.facebook.appmanager
