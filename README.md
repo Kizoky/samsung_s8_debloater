@@ -46,3 +46,7 @@ Performing a factory reset should re-enable these apps, and you can update the p
 # Todo
 
 - Needs a cleanup for a faster debloating
+
+# XDA Thread
+
+https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/tool-s8-debloater-t3815794
