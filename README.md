@@ -1,3 +1,8 @@
+# Extreme branch
+- This deletes/disables almost every app possible, this includes Samsung apps
+- Samsung-only apps deleter: https://github.com/Kizoky/samsung_s8_debloater/archive/only-samsung.zip
+- Google-only apps deleter: https://github.com/Kizoky/samsung_s8_debloater/archive/only-Google.zip
+
 # A debloater script for Samsung Galaxy S8 and S8+
 
 Originally made by serajr on XDA for Xperia XZ2 and XA2 devices, this has been edited for
