@@ -1,4 +1,6 @@
 # Delete Samsung-only apps branch
+- Deletes Samsung apps only, and various bloatware for ex. Verizon
+
 # A debloater script for Samsung Galaxy S8 and S8+
 
 Originally made by serajr on XDA for Xperia XZ2 and XA2 devices, this has been edited for
