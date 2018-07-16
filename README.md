@@ -1,3 +1,4 @@
+# Delete Samsung-only apps branch
 # A debloater script for Samsung Galaxy S8 and S8+
 
 Originally made by serajr on XDA for Xperia XZ2 and XA2 devices, this has been edited for
@@ -22,30 +23,12 @@ If you have found bloatware that aren't on this list, you can do a pull request,
 create a new issue.
 
 # List of features/apps removed/disabled/hidden currently
-Note: there are some apps I don't know what their purpose is, so I haven't included
-them on this list (ex.: HiyaService, RootPA, etc..)
 
-- Bixby
-- G-mail
-- Calendar & Contacts syncer
-- Edge related apps and features
-- Talkback
-- Drive
-- Maps
-- Several Google services
-- Facebook installer/services
-- Excel and Powerpoint
 - Samsung services and apps
 - Game related apps
 - Samsung widgets
-- UPDATES ARE DISABLED
 
-If unsure check out the list: https://github.com/Kizoky/samsung_s8_debloater/blob/master/files/debloat_list.sh
 Performing a factory reset should re-enable these apps, and you can update the phone If needed
-
-# Todo
-
-- Needs a cleanup for a faster debloating
 
 # XDA Thread
 
