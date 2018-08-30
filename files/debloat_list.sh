@@ -48,10 +48,6 @@ echo ""
 	${UNINSTALL} com.samsung.android.keyguardwallpaperupdator
 	${UNINSTALL} com.samsung.android.app.news
 	${UNINSTALL} com.android.egg
-	${UNINSTALL} com.sec.android.widgetapp.samsungapps
-	${UNINSTALL} com.samsung.android.game.gamehome
-	${UNINSTALL} com.enhance.gameservice
-	${UNINSTALL} com.samsung.android.game.gametools
 	${UNINSTALL} com.sec.android.app.sbrowser
 	${UNINSTALL} com.samsung.android.app.sbrowseredge
 	${UNINSTALL} com.samsung.android.email.provider
@@ -82,7 +78,6 @@ echo ""
 	${UNINSTALL} com.sec.android.gallery3d
 	${UNINSTALL} com.samsung.android.hmt.vrsvc
 	${UNINSTALL} com.samsung.android.bixby.es.globalaction
-	${UNINSTALL} com.samsung.android.game.gametools
 	${UNINSTALL} com.samsung.android.service.peoplestripe
 	${UNINSTALL} com.sec.android.desktopmode.uiservice
 	${UNINSTALL} com.samsung.android.app.taskedge
@@ -105,7 +100,6 @@ echo ""
 	${UNINSTALL} com.samsung.android.visionintelligence
 	${UNINSTALL} net.sharewire.parkmobilev2
 	${UNINSTALL} com.samsung.android.app.watchmanagerstub
-	${UNINSTALL} com.enhance.gameservice
 	${UNINSTALL} com.asurion.android.verizon.vms
 	${UNINSTALL} com.samsung.android.bixby.voiceinput
 	${UNINSTALL} com.samsung.android.app.appsedge
@@ -159,9 +153,6 @@ echo ""
 	${UNINSTALL} com.samsung.android.app.news
 	${UNINSTALL} com.android.egg
 	${UNINSTALL} com.sec.android.widgetapp.samsungapps
-	${UNINSTALL} com.samsung.android.game.gamehome
-	${UNINSTALL} com.enhance.gameservice
-	${UNINSTALL} com.samsung.android.game.gametools
 	${UNINSTALL} com.sec.android.app.sbrowser
 	${UNINSTALL} com.samsung.android.app.sbrowseredge
 	${UNINSTALL} com.samsung.android.email.provider
@@ -192,7 +183,6 @@ echo ""
 	${UNINSTALL} com.sec.android.gallery3d
 	${UNINSTALL} com.samsung.android.hmt.vrsvc
 	${UNINSTALL} com.samsung.android.bixby.es.globalaction
-	${UNINSTALL} com.samsung.android.game.gametools
 	${UNINSTALL} com.samsung.android.service.peoplestripe
 	${UNINSTALL} com.sec.android.desktopmode.uiservice
 	${UNINSTALL} com.samsung.android.app.taskedge
@@ -215,7 +205,6 @@ echo ""
 	${UNINSTALL} com.samsung.android.visionintelligence
 	${UNINSTALL} net.sharewire.parkmobilev2
 	${UNINSTALL} com.samsung.android.app.watchmanagerstub
-	${UNINSTALL} com.enhance.gameservice
 	${UNINSTALL} com.asurion.android.verizon.vms
 	${UNINSTALL} com.samsung.android.bixby.voiceinput
 	${UNINSTALL} com.samsung.android.app.appsedge
